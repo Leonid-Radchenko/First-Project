@@ -61,6 +61,9 @@ main .main_welcome h1{
 	color: #999999;
 	font-size: 44px;
 }
+main .main_welcome b{
+	color: #fff;
+}
 .mycompany{
 	color: #fcac45;
 }
@@ -93,10 +96,49 @@ main .main_about{
 .mw-100{
 	min-width: 100%;
 }
-.main_welcome b{
+.main__team {
+	background: #000;
+	text-align: center;
+	padding: 100px 0 165px 0;
 	color: #fff;
 }
-
+.main__team h1{
+	font-size: 44px;
+	padding-bottom: 30px;
+}
+.line{
+	width: 100px;
+	height: 3px;
+	background: #fcac45;
+	position: relative;
+	left: 45.5%;
+	margin-bottom: 85px;
+}
+.photo{
+	background: #aaa9a9;
+	width: 125px;
+	height: 125px;
+	border-radius: 50%;
+	margin: 20px auto;
+}
+.team__cards{
+	display: flex;
+}
+.name{
+	font-size: 20px;
+	margin-bottom: 7px;
+}
+.position {
+	font-size: 16px;
+	margin-bottom: 30px;
+}
+.about__position{
+	font-size: 14px;
+	font-weight: 100;
+}
+.card{
+	margin: 0 20px;
+}
 
 
 
@@ -176,5 +218,11 @@ main .main_about{
 	.about_right h1{
 		margin-top: 10px;
 		font-size: 20px;
+	}
+
+
+
+	.team__cards{
+		flex-direction: column;
 	}
 }
