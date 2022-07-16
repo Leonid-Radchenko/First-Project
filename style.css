@@ -190,6 +190,24 @@ main .main_about{
 	text-transform: uppercase;
 	margin-bottom: 50px;
 }
+.gallery img{
+	width: 230px;
+	height: 230px;
+}
+.main__work{
+	text-align: center;
+	padding: 100px 0 100px 0;
+}
+.main__work h1{
+ margin-bottom: 30px;
+}
+.main__work p{
+	margin-bottom: 175px;
+	color: #6c6c6c;
+ }
+ .main__work img:hover{
+	opacity: 0.9;
+ }
 
 
 
@@ -280,5 +298,15 @@ main .main_about{
 
 .services__cards{
 	grid-template-columns: auto;
+}
+
+.line1 img:not(:first-child){
+	display: none;
+}
+.line2 img:not(:first-child){
+	display: none;
+}
+.line3 img:not(:first-child){
+	display: none;
 }
 }
