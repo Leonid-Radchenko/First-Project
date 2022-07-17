@@ -83,6 +83,9 @@ main .main_about{
 	border-bottom: #fcac45 3px solid;
 	padding-bottom: 20px;
 }
+.about_right h1::after{
+	display: none;
+}
 .about_right p{
 	margin: 30px 0 50px 0;
 	color: #6c6c6c;
@@ -106,14 +109,14 @@ main .main_about{
 	font-size: 44px;
 	padding-bottom: 30px;
 }
-.line{
+/*.line{
 	width: 100px;
 	height: 3px;
 	background: #fcac45;
 	position: relative;
 	left: 45.5%;
 	margin-bottom: 85px;
-}
+}*/
 .photo{
 	background: #aaa9a9;
 	width: 125px;
@@ -248,6 +251,14 @@ input[type=submit]{
 	margin-right: 0;
 	margin-top: 20px;
 }
+h1::after{
+	content: "";
+	display: block;
+	margin: 0 auto;
+	width: 100px;
+	padding-top: 30px;
+	border-bottom: 3px solid #fcac45;
+}
 .contact__form h1{
 	text-align: center;
 
@@ -260,6 +271,24 @@ input[type=submit]{
 }
 .contact__form h1{
 	margin-bottom: 30px;
+}
+footer{
+	width: 100%;
+	height: auto;
+	background: black;
+	padding: 30px 0;
+}
+.social img{
+	width: 25px;
+	height: 25px;
+	margin-left: 15px;
+}
+.social{
+	display: flex;
+	justify-content: center;
+}
+.social img:hover{
+	opacity: 0.6;
 }
 
 
